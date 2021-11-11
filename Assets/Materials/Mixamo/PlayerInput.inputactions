@@ -1,0 +1,118 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "CharacterControls",
+            "id": "88d9716b-e124-4e68-b758-ab501ee9f880",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "1c734f9b-d4cf-4376-94cf-b91b68388a63",
+                    "expectedControlType": "Vector2",
+                    "processors": "NormalizeVector2",
+                    "interactions": ""
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "e22d006d-a8b7-462e-9047-de45cd8c58e6",
+                    "expectedControlType": "Button",
+                    "processors": "NormalizeVector2",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "065bf29d-e5f6-4c55-a8e6-c996dc14f83f",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "ca416dfb-7815-4fe1-b884-25caf237f5be",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "5ec85dff-9b30-41f2-a9fb-7fcc2f1ac3fd",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "e3a8700e-bcdd-41e3-8297-05dab74de7e2",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "f77542b1-af27-46db-85f3-9d20c8180486",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "a86989a9-11f2-41a1-959f-4c37e1b83eb2",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "f431d212-357d-4740-8c95-34b1cb9e61bf",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7aa71f77-adc8-439b-99d7-d855d91b0a32",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

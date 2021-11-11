@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4af0bd0fd4023d440a3154b431247966, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Hello. Welcome to the virtual induction of Etiqa.
+
+    Congratulations of getting
+    your seat here.'
+  - 'Before we start the journey, let me ask a simple question.
+
+    Are you new
+    in our company or permenant staff that wanted to try this virtual induction?'
+  responses:
+  - responseText: New employee
+    dialogueObject: {fileID: 11400000, guid: a8bd90a513631f047936a3e750af3553, type: 2}
+  - responseText: Permenant staff
+    dialogueObject: {fileID: 11400000, guid: e25809368f96e134b91b779613637506, type: 2}
