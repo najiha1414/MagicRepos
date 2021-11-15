@@ -10,9 +10,14 @@ public class orgChart : MonoBehaviour
         SceneManager.LoadScene("OrgChart");
     }
 
-    public void staffsProfile()
+    public void HCStaffsProf()
     {
         SceneManager.LoadScene("HCStaffsProfile");
+    }
+
+    public void ITStaffsProf()
+    {
+        SceneManager.LoadScene("ITStaffsProfile");
     }
     
     public void BackDepartmentsScene()
