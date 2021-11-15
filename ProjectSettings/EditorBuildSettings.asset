@@ -20,9 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Departments.unity
     guid: 59dc096407745bc41ade508c311aa96c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/OrgChart.unity
-    guid: 996eff3c61114a8419001e09780ceedd
+    guid: 3a471425aec93b8449dfcf71ceaec841
   - enabled: 1
     path: Assets/Scenes/HCStaffsProfile.unity
     guid: 62e3768d7c3316e4fa8bfe45ff097e1f
