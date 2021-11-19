@@ -12,6 +12,7 @@ public class NoteAppear : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _noteImage.enabled = true;
+
         }
     }
 

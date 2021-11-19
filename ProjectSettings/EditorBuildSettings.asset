@@ -30,6 +30,6 @@ EditorBuildSettings:
     path: Assets/Scenes/HCStaffsProfile.unity
     guid: 62e3768d7c3316e4fa8bfe45ff097e1f
   - enabled: 1
-    path: Assets/Scenes/ITStaffsProfile.unity
+    path: Assets/Scenes/DBStaffsProfile.unity
     guid: bfcb3736e16548949865770247d4db6c
   m_configObjects: {}
