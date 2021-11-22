@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DBStaffsProfile.unity
     guid: bfcb3736e16548949865770247d4db6c
+  - enabled: 1
+    path: Assets/Scenes/Books.unity
+    guid: 72e7fccca8ed8224ab6c5448365de501
   m_configObjects: {}

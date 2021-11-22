@@ -17,6 +17,11 @@ public class buttonAppear : MonoBehaviour
     {
         SceneManager.LoadScene("GeneralInfo");
     }
+
+    public void booksGame()
+    {
+        SceneManager.LoadScene("Books");
+    }
     
     // Start is called before the first frame update
     void Start()
