@@ -12,13 +12,20 @@ public class FlipPage : MonoBehaviour
         PrevButton
     }
 
-    [SerializeField] Button nextBtn;
-    [SerializeField] Button prevBtn;
+    [SerializeField] AudioSource audioSource = null;
+    [SerializeField] AudioClip flipPage = null;
+
+    [SerializeField] Button prevBtn = null;
+    [SerializeField] Button nextBtn = null;
+    [SerializeField] Button closeBtn = null;
+
 
     private Vector3 rotationVector;
     private Vector3 startPosition;
     private Quaternion startRotation;
+    
     private bool isClicked;
+    
     private DateTime startTime;
     private DateTime endTime;
 
@@ -31,8 +38,11 @@ public class FlipPage : MonoBehaviour
         if (nextBtn != null)
         nextBtn.onClick.AddListener(() => turnOnePageBtn_Click(ButtonType.NextButton));
 
-        if (nextBtn != null)
-        nextBtn.onClick.AddListener(() => turnOnePageBtn_Click(ButtonType.PrevButton));
+        if (prevBtn != null)
+        prevBtn.onClick.AddListener(() => turnOnePageBtn_Click(ButtonType.PrevButton));
+
+        if (closeBtn != null)
+        closeBtn.onClick.AddListener(() => closeBookBtn_Click());
     }
 
     // Update is called once per frame
@@ -64,7 +74,25 @@ public class FlipPage : MonoBehaviour
 
         else if (type == ButtonType.PrevButton)
         {
+            Vector3 newRotation = new Vector3(startRotation.x, 180, startRotation.z);
+            transform.rotation = Quaternion.Euler(newRotation);
+
             rotationVector = new Vector3(0, -180, 0);
         }
+
+        playSound();
+    }
+
+    private void playSound()
+    {
+        if ((audioSource != null) && (flipPage != null))
+        {
+            audioSource.PlayOneShot(flipPage);
+        }
+    }
+
+    private void closeBookBtn_Click()
+    {
+        AppEvents.CloseBookFunction();
     }
 }
