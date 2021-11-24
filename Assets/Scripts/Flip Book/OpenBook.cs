@@ -7,7 +7,6 @@ using System;
 public class OpenBook : MonoBehaviour
 {
     [SerializeField] Button openBtn = null;
-    [SerializeField] Button closeBtn = null;
 
     [SerializeField] GameObject openedBook = null;
     [SerializeField] GameObject insideBackCover = null;
@@ -48,6 +47,8 @@ public class OpenBook : MonoBehaviour
                 gameObject.SetActive(false);
                 insideBackCover.SetActive(false);
                 openedBook.SetActive(true);
+
+                AppEvents.OpenBookFunction();
                 }
             }
             if (isCloseClicked)
