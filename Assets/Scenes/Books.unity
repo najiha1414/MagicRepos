@@ -2983,10 +2983,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1929178606855870, guid: ba5f98e68ada82947a9d12a839621686, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114723815743856902, guid: ba5f98e68ada82947a9d12a839621686,
         type: 3}
       propertyPath: bookPages.Array.size
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114723815743856902, guid: ba5f98e68ada82947a9d12a839621686,
         type: 3}
@@ -3009,6 +3013,42 @@ PrefabInstance:
     - target: {fileID: 114723815743856902, guid: ba5f98e68ada82947a9d12a839621686,
         type: 3}
       propertyPath: bookPages.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: c69b4b800a2cfc149b8d62f7229c6968,
+        type: 3}
+    - target: {fileID: 114723815743856902, guid: ba5f98e68ada82947a9d12a839621686,
+        type: 3}
+      propertyPath: bookPages.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: c69b4b800a2cfc149b8d62f7229c6968,
+        type: 3}
+    - target: {fileID: 114723815743856902, guid: ba5f98e68ada82947a9d12a839621686,
+        type: 3}
+      propertyPath: bookPages.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: c69b4b800a2cfc149b8d62f7229c6968,
+        type: 3}
+    - target: {fileID: 114723815743856902, guid: ba5f98e68ada82947a9d12a839621686,
+        type: 3}
+      propertyPath: bookPages.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: c69b4b800a2cfc149b8d62f7229c6968,
+        type: 3}
+    - target: {fileID: 114723815743856902, guid: ba5f98e68ada82947a9d12a839621686,
+        type: 3}
+      propertyPath: bookPages.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: c69b4b800a2cfc149b8d62f7229c6968,
+        type: 3}
+    - target: {fileID: 114723815743856902, guid: ba5f98e68ada82947a9d12a839621686,
+        type: 3}
+      propertyPath: bookPages.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: c69b4b800a2cfc149b8d62f7229c6968,
+        type: 3}
+    - target: {fileID: 114723815743856902, guid: ba5f98e68ada82947a9d12a839621686,
+        type: 3}
+      propertyPath: bookPages.Array.data[9]
       value: 
       objectReference: {fileID: 21300000, guid: c69b4b800a2cfc149b8d62f7229c6968,
         type: 3}
