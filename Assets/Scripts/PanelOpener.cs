@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class PanelOpener : MonoBehaviour
 {
-    public GameObject Panel;
+    public GameObject tooltip;
 
-    public void OpenPanel()
+    public void ShowTooltip()
     {
-        if (Panel != null)
+        if (tooltip != null)
         {
-            bool isActive = Panel.activeSelf;
-            Panel.SetActive(!isActive);
+            bool isActive = tooltip.activeSelf;
+            tooltip.SetActive(!isActive);
         }
     }
 }
