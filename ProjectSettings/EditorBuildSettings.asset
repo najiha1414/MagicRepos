@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Magic.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/Books.unity
+    guid: 72e7fccca8ed8224ab6c5448365de501
+  - enabled: 1
     path: Assets/Scenes/GeneralInfo.unity
     guid: 8ede0c1908ffb794fbd8816fe086d44f
   - enabled: 1
@@ -32,7 +35,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DBStaffsProfile.unity
     guid: bfcb3736e16548949865770247d4db6c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 92e95d8d7fdb20f48b3511dfe8e6420b
   - enabled: 1
-    path: Assets/Scenes/Books.unity
-    guid: 72e7fccca8ed8224ab6c5448365de501
+    path: Assets/Scenes/ActuarialStaffsProfile.unity
+    guid: aadef674c4bb2c042a7c9f4a69b2fd40
+  - enabled: 1
+    path: Assets/Scenes/FinanceStaffsProfile.unity
+    guid: c27d9f692e013474caac3aedc64e2f6d
   m_configObjects: {}
