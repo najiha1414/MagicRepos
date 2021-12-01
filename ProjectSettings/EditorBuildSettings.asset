@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinanceStaffsProfile.unity
     guid: c27d9f692e013474caac3aedc64e2f6d
+  - enabled: 1
+    path: Assets/Scenes/PartnerStaffsProfile.unity
+    guid: d1321f1d18bdd404fb5991a84a5f06ea
   m_configObjects: {}

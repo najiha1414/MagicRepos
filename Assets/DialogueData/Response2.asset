@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: Response2
   m_EditorClassIdentifier: 
   dialogue:
-  - Good job! Let's start knowing our company again.
-  - Press Home icon at the top left to start.
+  - "That's good to hear that! \nI hope we can create amazing things with impressive
+    teamwork again after this."
+  - 'Let''s be curious about our company.
+
+    Press Home icon at the top left to
+    start.'
   responses: []

@@ -17,10 +17,9 @@ MonoBehaviour:
 
     Congratulations of getting
     your seat here.'
-  - 'Before we start the journey, let me ask a simple question.
-
-    Are you new
-    in our company or permenant staff that wanted to try this virtual induction?'
+  - Before we start the journey, let me ask a simple question.
+  - Are you new in our company or permenant staff that wanted to try this virtual
+    induction?
   responses:
   - responseText: New employee
     dialogueObject: {fileID: 11400000, guid: a8bd90a513631f047936a3e750af3553, type: 2}

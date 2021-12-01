@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Response1
   m_EditorClassIdentifier: 
   dialogue:
-  - That's good to know that. Let's begin our induction journey.
-  - Press Home icon at the top left to start.
+  - 'Congratulations on being a part of our wonderful team!
+
+    We are excited to
+    have a talent like you in our midst in achieving great things.'
+  - 'Now let''s begin our induction journey.
+
+    Press Home icon at the top left
+    to start.'
   responses: []
