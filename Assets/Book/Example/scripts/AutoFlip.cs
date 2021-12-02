@@ -2,6 +2,7 @@
 using System.Collections;
 [RequireComponent(typeof(Book))]
 public class AutoFlip : MonoBehaviour {
+
     public FlipMode Mode;
     public float PageFlipTime = 1;
     public float TimeBetweenPages = 1;
