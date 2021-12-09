@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {    
+    // SavePlayerPos playerPosData;
+
+    // void Start()
+    // {
+    //     playerPosData = FindObjectOfType<SavePlayerPos>();
+    // }
+       
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -25,8 +32,14 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Magic");
     }
 
+    public void LoadGame()
+    {
+        SceneManager.LoadScene("Magic");
+    }
+
     public void QuitGame()
     {
+        //playerPosData.PlayerPosSave();
         Application.Quit();
         Debug.Log("QUIT!");           
     }
