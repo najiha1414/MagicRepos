@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -70,5 +71,4 @@ public class PlayerMovement : MonoBehaviour
         //if we are grounded, jump
         rb.AddForce(Vector3.up * jumpForce);
     }
-
 }
