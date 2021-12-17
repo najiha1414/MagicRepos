@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
         playerMovement.speed += playerMovement.speedIncreasePerPoint;
     }
 
+    //connected with Coin.cs which is incrementing the player's score after player enter the coins collider
     private void Awake() 
     {
         inst = this;

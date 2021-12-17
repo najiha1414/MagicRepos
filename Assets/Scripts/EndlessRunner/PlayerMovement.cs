@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] float jumpForce = 400f;
     [SerializeField] LayerMask groundMask;
+
+    
 
     private void FixedUpdate() 
     {

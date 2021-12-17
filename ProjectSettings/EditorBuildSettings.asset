@@ -50,4 +50,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PartnerStaffsProfile.unity
     guid: d1321f1d18bdd404fb5991a84a5f06ea
+  - enabled: 1
+    path: Assets/Scenes/RunnerMenuScene.unity
+    guid: c9ba30e8293fb7542858608422cec763
+  - enabled: 1
+    path: Assets/Scenes/EndlessRunnerNew.unity
+    guid: 903c90b3be9295a46abbe2e72d404d13
   m_configObjects: {}

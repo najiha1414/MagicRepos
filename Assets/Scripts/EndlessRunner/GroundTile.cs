@@ -19,7 +19,7 @@ public class GroundTile : MonoBehaviour
     private void OnTriggerExit(Collider other) 
     {
         groundSpawner.SpawnTile(true);
-        Destroy(gameObject, 2); //destroy game object 2secs after player release the trigger
+        Destroy(gameObject, 2); //destroy ground tile 2secs after player release the trigger
     }
 
     public void SpawnObstacle()
