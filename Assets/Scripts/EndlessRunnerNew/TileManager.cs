@@ -7,8 +7,8 @@ public class TileManager : MonoBehaviour
     public GameObject[] tilePrefabs;
 
     private Transform playerTransform;
-    private float spawnZ = -4.0f;
-    private float tileLength = 4.0f; //the floor length
+    private float spawnZ = -8.0f;
+    private float tileLength = 8.0f; //the floor length
     private float safeZone = 15.0f; //starter floor for player
     private int amountTileOnScreen = 7;
     private int lastPrefabIndex = 0;

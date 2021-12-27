@@ -30,11 +30,17 @@ EditorBuildSettings:
     path: Assets/Scenes/OrgChart.unity
     guid: 3a471425aec93b8449dfcf71ceaec841
   - enabled: 1
+    path: Assets/Scenes/CEOStaffsProfile.unity
+    guid: f878aaea11368be44aaa889555660a88
+  - enabled: 1
     path: Assets/Scenes/HCStaffsProfile.unity
     guid: 62e3768d7c3316e4fa8bfe45ff097e1f
   - enabled: 1
     path: Assets/Scenes/DBStaffsProfile.unity
     guid: bfcb3736e16548949865770247d4db6c
+  - enabled: 1
+    path: Assets/Scenes/DB2StaffsProfile.unity
+    guid: 41fdebc1f9439c0459401c3ad6f5faf3
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

@@ -20,6 +20,11 @@ public class orgChart : MonoBehaviour
         SceneManager.LoadScene("DBStaffsProfile");
     }
 
+    public void DB2StaffsProf()
+    {
+        SceneManager.LoadScene("DB2StaffsProfile");
+    }
+
     public void ActuStaffsProf()
     {
         SceneManager.LoadScene("ActuarialStaffsProfile");
@@ -33,6 +38,11 @@ public class orgChart : MonoBehaviour
     public void PartnerStaffsProf()
     {
         SceneManager.LoadScene("PartnerStaffsProfile");
+    }
+
+    public void CEOStaffsProf()
+    {
+        SceneManager.LoadScene("CEOStaffsProfile");
     }
     
     public void BackDepartmentsScene()
