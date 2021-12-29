@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 9aa8ed67591432941bb76f12eb23ff91, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: bbe9494f815f3c340956427c884b72a0, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.38317406, g: 0.5344811, b: 0.63250464, a: 1}
+  m_IndirectSpecularColor: {r: 0.14162312, g: 0.3253057, b: 0.36611557, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -206,7 +206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 64800397}
   m_Layer: 5
-  m_Name: General
+  m_Name: GeneralMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -725,7 +725,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: General
+  m_Text: Induction Material
 --- !u!222 &500582912
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2334,7 +2334,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.120664604, y: -9.826632e-10, z: -1.1946936e-10, w: 0.99269336}
+  m_LocalRotation: {x: 0.120664604, y: 0.000000004088159, z: -4.666801e-10, w: 0.99269336}
   m_LocalPosition: {x: 338.79, y: 3.873, z: 365.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2447,8 +2447,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980353929}
-  m_LocalRotation: {x: 0.16018225, y: -0.000000029417503, z: 0.0000000047738036, w: 0.9870875}
-  m_LocalPosition: {x: 0, y: 1.0000002, z: -2}
+  m_LocalRotation: {x: 0.15115589, y: 0.000000029459896, z: -0.000000004504797, w: 0.98850995}
+  m_LocalPosition: {x: 0, y: 0.70360494, z: -1.6336365}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1139554094}
@@ -3851,15 +3851,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 445452, guid: 14f2f01264616214ba79f88c8f46c15f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.82
+      value: 13.7
       objectReference: {fileID: 0}
     - target: {fileID: 445452, guid: 14f2f01264616214ba79f88c8f46c15f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.92
+      value: -1.07
       objectReference: {fileID: 0}
     - target: {fileID: 445452, guid: 14f2f01264616214ba79f88c8f46c15f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.29
+      value: -14.33
       objectReference: {fileID: 0}
     - target: {fileID: 445452, guid: 14f2f01264616214ba79f88c8f46c15f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4415,7 +4415,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449609530}
-  m_LocalRotation: {x: 0.10263581, y: 0.000000013921126, z: -0.0000000014363917, w: 0.99471897}
+  m_LocalRotation: {x: 0.10263583, y: 0.000000025673268, z: -0.0000000026489864, w: 0.994719}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5654,7 +5654,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764458209}
-  m_LocalRotation: {x: 0.1206646, y: -7.897943e-31, z: 1.229471e-31, w: 0.99269336}
+  m_LocalRotation: {x: 0.1206646, y: 0.0000000039635846, z: -4.817849e-10, w: 0.99269336}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5701,10 +5701,10 @@ RectTransform:
   m_Father: {fileID: 2009970449}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -881.7, y: 469.6}
-  m_SizeDelta: {x: 92.62726, y: 80.37673}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -864, y: 437}
+  m_SizeDelta: {x: 80, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1921218938
 MonoBehaviour:

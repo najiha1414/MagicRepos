@@ -30,16 +30,16 @@ EditorBuildSettings:
     path: Assets/Scenes/OrgChart.unity
     guid: 3a471425aec93b8449dfcf71ceaec841
   - enabled: 1
-    path: Assets/Scenes/CEOStaffsProfile.unity
+    path: Assets/Scenes/StaffsProfile/CEOStaffsProfile.unity
     guid: f878aaea11368be44aaa889555660a88
   - enabled: 1
-    path: Assets/Scenes/HCStaffsProfile.unity
+    path: Assets/Scenes/StaffsProfile/HCStaffsProfile.unity
     guid: 62e3768d7c3316e4fa8bfe45ff097e1f
   - enabled: 1
-    path: Assets/Scenes/DBStaffsProfile.unity
+    path: Assets/Scenes/StaffsProfile/DBStaffsProfile.unity
     guid: bfcb3736e16548949865770247d4db6c
   - enabled: 1
-    path: Assets/Scenes/DB2StaffsProfile.unity
+    path: Assets/Scenes/StaffsProfile/DB2StaffsProfile.unity
     guid: 41fdebc1f9439c0459401c3ad6f5faf3
   - enabled: 0
     path: 
@@ -48,14 +48,17 @@ EditorBuildSettings:
     path: 
     guid: 92e95d8d7fdb20f48b3511dfe8e6420b
   - enabled: 1
-    path: Assets/Scenes/ActuarialStaffsProfile.unity
+    path: Assets/Scenes/StaffsProfile/ActuarialStaffsProfile.unity
     guid: aadef674c4bb2c042a7c9f4a69b2fd40
   - enabled: 1
-    path: Assets/Scenes/FinanceStaffsProfile.unity
+    path: Assets/Scenes/StaffsProfile/FinanceStaffsProfile.unity
     guid: c27d9f692e013474caac3aedc64e2f6d
   - enabled: 1
-    path: Assets/Scenes/PartnerStaffsProfile.unity
+    path: Assets/Scenes/StaffsProfile/PartnerStaffsProfile.unity
     guid: d1321f1d18bdd404fb5991a84a5f06ea
+  - enabled: 1
+    path: Assets/Scenes/StaffsProfile/CustExpStaffsProfile.unity
+    guid: 5c5d461ffa42ebf4c9b47ab918064c74
   - enabled: 1
     path: Assets/Scenes/RunnerMenuScene.unity
     guid: c9ba30e8293fb7542858608422cec763

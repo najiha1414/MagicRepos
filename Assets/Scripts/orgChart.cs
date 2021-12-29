@@ -44,6 +44,11 @@ public class orgChart : MonoBehaviour
     {
         SceneManager.LoadScene("CEOStaffsProfile");
     }
+
+    public void CustExpStaffsProf()
+    {
+        SceneManager.LoadScene("CustExpStaffsProfile");
+    }
     
     public void BackDepartmentsScene()
     {
