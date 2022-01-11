@@ -17,14 +17,12 @@ public class PlayerMotor : MonoBehaviour
 
     private bool isDead = false;
     
-    // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
         startTime = Time.time;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(isDead)

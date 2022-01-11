@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    int score;
+    float score;
     public static GameManager inst;
 
     [SerializeField] Text scoreText;
     [SerializeField] PlayerMovement playerMovement;
+
 
     public void IncrementScore()
     {

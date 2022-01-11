@@ -16,7 +16,6 @@ public class Score : MonoBehaviour
     public Text scoreText;
     public DeathMenu deathMenu;
 
-
     void Update()
     {
         if(isDead) 

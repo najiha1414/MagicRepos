@@ -18,9 +18,11 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] float jumpForce = 400f;
     [SerializeField] LayerMask groundMask;
+    
+    public OnDie deathMenu;
+    private float score;
 
     
-
     private void FixedUpdate() 
     {
         if (!alive) return; //if the variable alive is not true, so running the function
@@ -46,23 +48,27 @@ public class PlayerMovement : MonoBehaviour
         {
             Die();
         }
+
+        if(alive)
+        return;
     }
 
     public void Die() 
     {
         alive = false;
+        deathMenu.ToggleEndMenu(score); //to make the black death menu popup
 
         //Restart game with a delay after 2secs
-        Invoke("Restart", 2); 
+        //Invoke("Restart", 2); 
 
         //every time the player collide with the collision, the game is running but restarting
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    // void Restart()
+    // {
+    //     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    // }
 
     void Jump()
     {
