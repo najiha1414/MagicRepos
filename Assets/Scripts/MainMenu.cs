@@ -32,11 +32,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Magic");
     }
 
-    public void LoadGame()
-    {
-        SceneManager.LoadScene("Magic");
-    }
-
     public void QuitGame()
     {
         //playerPosData.PlayerPosSave();

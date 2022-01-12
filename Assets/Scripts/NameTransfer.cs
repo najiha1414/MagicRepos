@@ -5,13 +5,11 @@ using UnityEngine.UI;
 
 public class NameTransfer : MonoBehaviour
 {
-    public string theName;
-    public GameObject inputField;
-    public GameObject textDisplay;
+    public InputField textBox;
 
-    public void StoreName()
+    public void clickSaveButton()
     {
-        theName = inputField.GetComponent<Text>().text;
-        textDisplay.GetComponent<Text>().text = "Welcome " + theName + " to the game";
+        PlayerPrefs.SetString("name", textBox.text);
+        Debug.Log("Your name is " + PlayerPrefs.GetString("name"));
     }
 }
