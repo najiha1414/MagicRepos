@@ -5,13 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {    
-    // SavePlayerPos playerPosData;
+    public GameObject Panel;
 
-    // void Start()
-    // {
-    //     playerPosData = FindObjectOfType<SavePlayerPos>();
-    // }
-       
+    public void OpenPanel()
+    {
+        if(Panel != null)
+        {
+            bool isActive = Panel.activeSelf;
+            Panel.SetActive(!isActive);
+        }
+    }
+
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -34,7 +38,6 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        //playerPosData.PlayerPosSave();
         Application.Quit();
         Debug.Log("QUIT!");           
     }

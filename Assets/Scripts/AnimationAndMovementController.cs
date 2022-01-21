@@ -21,8 +21,6 @@ public class AnimationAndMovementController : MonoBehaviour
     float rotationFactorPerFrame = 15f;
     float runMultiplier = 5.0f;
 
-    SavePlayerPos playerPosData;
-
     void Awake()
     {
         playerInput = new PlayerInput();
@@ -37,9 +35,6 @@ public class AnimationAndMovementController : MonoBehaviour
         playerInput.CharacterControls.Move.performed += onMovementInput;
         playerInput.CharacterControls.Run.started += onRun;
         playerInput.CharacterControls.Run.canceled += onRun;
-
-        playerPosData = FindObjectOfType<SavePlayerPos>();
-        playerPosData.PlayerPosLoad();
     }
 
     void onRun (InputAction.CallbackContext context)

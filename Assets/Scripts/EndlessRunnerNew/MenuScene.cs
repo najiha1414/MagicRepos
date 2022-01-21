@@ -17,4 +17,9 @@ public class MenuScene : MonoBehaviour
     {
         SceneManager.LoadScene("EndlessRunnerNew");
     }
+
+    public void ToMagic()
+    {
+        SceneManager.LoadScene("Magic");
+    }
 }
