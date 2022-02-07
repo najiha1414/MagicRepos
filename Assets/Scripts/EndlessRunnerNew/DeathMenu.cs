@@ -42,7 +42,8 @@ public class DeathMenu : MonoBehaviour
 
     public void ToMenu()
     {
-        SceneManager.LoadScene("RunnerMenuScene"); //when press Play button, it bots our scene over again
+        //when press Play button, it bots our scene over again
+        SceneManager.LoadScene("RunnerMenuScene"); 
     }
 
     public void ToMagic() 

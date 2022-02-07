@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 125195959}
   - component: {fileID: 125195958}
   m_Layer: 5
-  m_Name: Ho Tack
+  m_Name: //Ho Tack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

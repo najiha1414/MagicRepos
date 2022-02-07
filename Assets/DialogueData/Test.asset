@@ -21,7 +21,7 @@ MonoBehaviour:
   - Are you new in our company or permenant staff that wanted to try this virtual
     induction?
   responses:
-  - responseText: New employee
+  - responseText: New Employee
     dialogueObject: {fileID: 11400000, guid: a8bd90a513631f047936a3e750af3553, type: 2}
-  - responseText: Permenant staff
+  - responseText: Permanent Staff
     dialogueObject: {fileID: 11400000, guid: e25809368f96e134b91b779613637506, type: 2}
