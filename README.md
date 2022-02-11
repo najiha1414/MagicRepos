@@ -26,10 +26,10 @@ The project is in WebGL format and has published into UnityPlay website for ever
 
 # Screenshots
 
-![alt text](pic1.jpg)
-![alt text](pic2.jpg)
-![alt text](pic3.jpg)
-![alt text](pic4.jpg)
-![alt text](pic5.jpg)
+![pic1](https://user-images.githubusercontent.com/94108873/153569826-134ebad4-c873-445b-b635-1bd594c35165.PNG)
+![pic2](https://user-images.githubusercontent.com/94108873/153569926-d24cba91-4d36-416a-b4ee-c1b8ef709bc7.PNG)
+![pic3](https://user-images.githubusercontent.com/94108873/153569962-b5649747-4cfc-4a4e-b1c5-d90d2b002dc4.PNG)
+![pic4](https://user-images.githubusercontent.com/94108873/153569993-c66cde8d-20a6-45db-b422-3b27a6962839.PNG)
+![pic5](https://user-images.githubusercontent.com/94108873/153570012-ffd8a1aa-ef14-4e1b-ba84-9a1303dae432.PNG)
 
 
