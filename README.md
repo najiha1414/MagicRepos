@@ -24,4 +24,12 @@ The project is in WebGL format and has published into UnityPlay website for ever
 8. Go to the projector that has blue light to choose either **Induction Materials** or **Departments**.
 9. Go to the desktop table to play simple endless running game by avoiding the obstacles infront while the score keeps counting. Highscore will be displayed at the GameMenu. 
 
+# Screenshots
+
+![alt text](pic1.jpg)
+![alt text](pic2.jpg)
+![alt text](pic3.jpg)
+![alt text](pic4.jpg)
+![alt text](pic5.jpg)
+
 
